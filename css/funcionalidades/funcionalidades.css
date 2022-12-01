@@ -1,0 +1,83 @@
+.section-infobg {
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-infobg::before {
+  content: "";
+  background-image: url('../../img/fundocomidascompacto.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+}
+.section-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section-info h2 {
+  grid-column: 1/-1;
+  font: 600 2.125rem/1 "Poppins", Arial, sans-serif;
+  padding-bottom: 40px;
+}
+.section-item {
+  background-color: var(--c00);
+  padding: 32px 32px 32px 40px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  max-width: max-content;
+  align-items: center;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+}
+.section-item ul {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+  font: 400 1.25rem/1 "Poppins", Arial, sans-serif;
+}
+.section-item li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.section-item li + li {
+  margin-top: 20px;
+}
+.section-item li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  left: -21px;
+  position: absolute;
+  background-image: url('../../img/icons/utiliza.svg');
+}
+.nao-utiliza li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  background-image: url('../../img/icons/naoutiliza.svg');
+}
+
+.section-info p {
+  font: 500 1.875rem/1 "Poppins", Arial, sans-serif;
+  text-align: center;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+  grid-column: 1/-1;
+  z-index: 1;
+}
+
+.section-info a {
+  grid-column: 1/-1;
+  justify-content: end;
+}

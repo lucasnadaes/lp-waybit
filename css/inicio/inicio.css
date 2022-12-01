@@ -1,0 +1,44 @@
+.header {
+  background: var(--p01);
+  padding: 10px;
+}
+.header-img {
+  max-width: 120px;
+  padding-top: .313rem;
+  padding-bottom: .313rem;
+}
+
+.main-bg {
+  background: var(--p02) url("/img/onda-azul.svg") no-repeat bottom;
+}
+.main-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  align-items: center;
+} 
+.main-conteudo h1 {
+  font: 600 3.25rem/1 "Poppins", Arial, sans-serif;
+  color: var(--c01);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.main-conteudo h2 {
+  font: 400 2rem/1 "Poppins", Arial, sans-serif;
+  color: var(--c01);
+  margin-bottom: 30px;
+}
+.main-conteudo p {
+  font: 400 1.5rem "Poppins", Arial, sans-serif;
+  margin-top: 1rem;
+  color: #e9e9e9
+}
+.main-video iframe {
+  border-radius: 10px;
+}
+.main-button {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
