@@ -31,9 +31,36 @@
   border-bottom: 1px solid var(--c07);
   border-radius: 5px;
   box-shadow: 0px 2px 2px var(--c07);
-  width: 400px;
+  width: 380px;
   height: 100px;
 }
 .vantagens-lista p {
   max-width: 30ch;
+}
+
+@media (max-width: 1169px) {
+  .vantagens-lista li {
+    width: 250px;
+  }
+}
+@media (max-width: 960px) {
+  .vantagens-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .vantagens-title {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+  .vantagens-img {
+    display: none;
+  }
+}
+@media (max-width: 560px) {
+  .vantagens-lista ul {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
