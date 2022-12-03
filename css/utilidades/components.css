@@ -8,16 +8,15 @@
   color: #332200;
   font: 600 1.875rem "Poppins", Arial, sans-serif;
   box-sizing: border-box;
-  padding: 20px 48px;
-  background: var(--p04);
+  padding: 16px 30px;
+  background: var(--c07);
   border-radius: 100px;
   box-shadow: 0px 2px 1px rgba(50, 39, 9, 0.25);
   width: max-content;
   transition: .1s;
-  z-index: 1;
   grid-column: 1/-1;
 }
 .button:hover {
   background: #332200;
-  color: var(--p04);
+  color: var(--c07);
 }

@@ -1,5 +1,8 @@
 @import "inicio/inicio.css";
 @import "funcionalidades/funcionalidades.css";
+@import "vantagens/vantagens.css";
+@import "cases/cases.css";
+@import "planos/planos.css";
 @import "utilidades/global.css";
 @import "utilidades/cores.css";
 @import "utilidades/components.css";

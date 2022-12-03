@@ -1,0 +1,24 @@
+.cases-bg {
+  background: var(--c00);
+}
+.cases-conteudo {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.cases-conteudo h2 {
+  font: 500 3.25rem/1 "Poppins", Arial, sans-serif;
+  color: var(--c02);
+  text-align: center;
+  padding-bottom: 60px;
+}
+.cases-depo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.cases-video {
+  padding-bottom: 60px;
+}
+.cases-video iframe {
+  border-radius: 5px;
+}
