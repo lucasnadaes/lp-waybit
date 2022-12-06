@@ -31,7 +31,7 @@
   border-bottom: 1px solid var(--c07);
   border-radius: 5px;
   box-shadow: 0px 2px 2px var(--c07);
-  width: 380px;
+  padding: 0px 10px 5px 10px;
   height: 100px;
 }
 .vantagens-lista p {
@@ -62,5 +62,8 @@
   .vantagens-lista ul {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .vantagens-title {
+    font: 500 2.5rem/1 "Poppins", Arial, sans-serif;
   }
 }
