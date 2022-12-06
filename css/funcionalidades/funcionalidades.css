@@ -94,7 +94,7 @@
     padding: 24px 24px 24px 32px;
     border-radius: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     width: 500px;
     height: max-content;
   }
@@ -115,5 +115,9 @@
     padding-bottom: 3.75rem;
     grid-column: 1/-1;
     width: 45ch;
+  }
+  .funcionalidade-info a {
+    display: block;
+    grid-column: 1/-1;
   }
 }
