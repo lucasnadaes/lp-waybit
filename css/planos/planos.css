@@ -1,6 +1,5 @@
 .planos-bg {
-  background: var(--c05);
-  background: url('../../img/onda.svg') var(--c05) no-repeat bottom;
+  background: url('../../img/onda.svg') var(--c02) no-repeat bottom;
 }
 .planos-conteudo {
   display: flex;
@@ -53,44 +52,45 @@
 }
 .planos-card li + li {
   padding-top: 20px;
+  padding-bottom: 5px;
   border-top: 1px solid #e1e1e1;
 }
 .planos-card a {
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 @media (max-width: 560px) {
   .planos-conteudo {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .planos-conteudo h1 {
-    font: 500 2.5rem/1 "Poppins", Arial, sans-serif;
+    font: 500 2rem/1 "Poppins", Arial, sans-serif;
     color: var(--c00);
     text-align: center;
     margin-bottom: 20px;
   }
   .planos-conteudo p {
-    font: 400 1.125rem/1 "Poppins", Arial, sans-serif;
+    font: 400 1rem/1 "Poppins", Arial, sans-serif;
     color: var(--c01);
     margin-bottom: 40px;
     text-align: center;
   }
   .planos-card {
-    padding: 24px 24px 24px 24px;
+    padding: 16px 16px 16px 16px;
     border-radius: 5px;
-    width: 360px;
+    width: 300px;
     align-items: center;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
   }
   .planos-card h2 {
-    font: 600 1.875rem/1 "Poppins", Arial, sans-serif;
+    font: 600 1.5rem/1 "Poppins", Arial, sans-serif;
     text-align: center;
     padding-bottom: 20px;
   }
   .planos-card p {
-    font: 500 1.5rem/1 "Poppins", Arial, sans-serif;
+    font: 500 1.2rem/1 "Poppins", Arial, sans-serif;
     text-align: center;
     color: var(--c05);
     text-transform: uppercase;

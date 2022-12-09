@@ -47,6 +47,12 @@
   }
 }
 @media (max-width: 560px) {
+  .cases-conteudo h2 {
+    font: 500 1.8rem/1 "Poppins", Arial, sans-serif;
+    color: var(--c02);
+    text-align: center;
+    padding-bottom: 40px;
+  }
   .cases-video iframe {
     max-width: 300px;
   }

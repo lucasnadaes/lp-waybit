@@ -1,9 +1,9 @@
 .header-bg {
-  background: var(--c05);
+  background: var(--c02);
   padding: 10px;
 }
 .menu {
-  border-bottom: 1px solid var(--c02);
+  border-bottom: 1px solid var(--c04);
   padding-bottom: 1rem;
 }
 .menu-img {
@@ -12,7 +12,7 @@
 }
 
 .main-bg {
-  background: url('../../img/onda.svg') var(--c05) no-repeat bottom;
+  background: url('../../img/onda.svg') var(--c02) no-repeat bottom;
 }
 .main-conteudo {
   display: grid;
@@ -23,7 +23,7 @@
   align-items: center;
 } 
 .main-conteudo h1 {
-  font: 600 3.25rem/1 "Poppins", Arial, sans-serif;
+  font: 600 2.5rem/1.2 "Poppins", Arial, sans-serif;
   color: var(--c00);
   text-transform: uppercase;
   margin-bottom: 10px;
