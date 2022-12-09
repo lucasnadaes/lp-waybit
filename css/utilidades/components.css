@@ -34,9 +34,6 @@
     margin-bottom: 20px;
     font: 600 1.5rem "Poppins", Arial, sans-serif;
     padding: 12px 15px;
-    width: 300px;
-  }
-  .button-diff {
-    width: max-content;
+    width: 280px;
   }
 }

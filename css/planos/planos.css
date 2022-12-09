@@ -2,9 +2,9 @@
   background: url('../../img/onda.svg') var(--c02) no-repeat bottom;
 }
 .planos-conteudo {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -20,6 +20,7 @@
   text-align: center;
 }
 .planos-card {
+  display: grid;
   background-color: var(--c01);
   padding: 32px 32px 32px 40px;
   border-radius: 5px;
@@ -56,8 +57,10 @@
   border-top: 1px solid #e1e1e1;
 }
 .planos-card a {
-  margin: 0 auto;
   margin-top: 30px;
+  grid-column: 1/-1;
+  justify-self: center;
+  width: fit-content;
 }
 
 @media (max-width: 560px) {
