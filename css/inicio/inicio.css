@@ -13,6 +13,7 @@
 
 .main-bg {
   background: url('../../img/onda.svg') var(--c02) no-repeat bottom;
+  background-size: cover;
 }
 .main-conteudo {
   display: grid;

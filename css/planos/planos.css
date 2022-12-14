@@ -1,5 +1,7 @@
 .planos-bg {
-  background: url('../../img/onda.svg') var(--c02) no-repeat bottom;
+  background: url('../../img/onda-inv.svg') var(--c02) no-repeat top;
+  background-size: cover;
+  
 }
 .planos-conteudo {
   display: grid;
