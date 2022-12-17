@@ -16,6 +16,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.vantagens-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .vantagens-lista ul {
   display: grid;
   grid-template-columns: 1fr 1fr ;

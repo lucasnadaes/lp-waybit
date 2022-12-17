@@ -27,10 +27,19 @@
   margin-bottom: 40px;
 }
 .footer-contato ul {
-  display:grid;
+  display: grid;
   gap: 20px;
   font: 400 1.3rem/1 "Poppins", Arial, sans-serif;
   color: var(--c00);
+}
+.footer-contato li a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-contato img {
+  max-width: 32px;
+  max-height: 32px;
 }
 .footer-social {
   display: flex;
