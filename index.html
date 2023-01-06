@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-
+  <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
   <header class="header-bg">
@@ -19,8 +19,8 @@
       </div>
     </div>
   </header>
-  <main class="main-bg">
-    <div class="main-conteudo container">
+  <main class="main-bg js-main">
+    <div class="main-conteudo container js-scroll">
       <div class="main-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/mfJmIY5g-dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -35,7 +35,7 @@
     </div>
   </main>
   <section class="funcionalidade-infobg">
-    <div class="container">
+    <div class="container js-scroll">
       <div class="funcionalidade-img">
         <img src="img/banner-branco.png" alt="">
       </div>
@@ -69,7 +69,7 @@
     </div>
   </section>
   <section class="vantagens-bg">
-    <div class="container">
+    <div class="container js-scroll">
       <h2 class="vantagens-title">Conheça as funcionalidades que vão promover o seu negócio</h2>
       <div class="vantagens-conteudo">
         <div class="vantagens-img">
@@ -93,7 +93,7 @@
     </div>
   </section>
   <section class="cases-bg">
-    <div id="conteudo" class="cases-conteudo container">
+    <div id="conteudo" class="cases-conteudo container js-scroll">
       <h2>Conheça nossos clientes que estão no caminho certo!</h2>
       <div class="cases-depo">
         <div class="cases-video">
@@ -107,7 +107,7 @@
     </div>
   </section>
   <section class="planos-bg">
-    <div class="planos-conteudo container">
+    <div class="planos-conteudo container js-scroll">
       <h1>E quanto custa tudo isso?</h1>
       <p>Ao contrário do que deve estar pensando, nossos planos tem preços super acessíveis!</p>
       <div class="planos-custo">
@@ -196,5 +196,7 @@
     </div>
     <p class="footer-detalhe">Waybit Software © Todos os direitos reservados</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
